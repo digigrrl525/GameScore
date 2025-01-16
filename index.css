@@ -1,0 +1,74 @@
+@font-face {
+    font-family: 'CursedTimerUlil-Aznm'; /* Name your font family */
+    src: url('CursedTimerUlil-Aznm.ttf'); /* Locate the .ttf file within your directory*/
+}
+  
+body {
+    margin: 68px auto 0 auto;
+    max-width: 575px;
+}
+
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 35.89px;
+    text-align: center;
+    color: #EEEEEE;
+    margin-bottom: 0;
+}
+
+.container {
+    width: 100%;
+    background: #1b244a;
+    border-radius: 4px;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex {
+    display: flex; 
+    justify-content: space-evenly;
+}
+
+.scoreBox {
+    font-family: 'CursedTimerUlil-Aznm', sans-serif; /* Use the font family */
+    width: 155px;
+    height: 120px;
+    background: #080001;
+    border-radius: 5px;
+    margin: 21px auto 26px auto;
+}
+
+.score {
+    margin: 0;
+    font-family: 'CursedTimerUlil-Aznm', sans-serif; /* Use the font family */
+    font-size: 90px;
+    line-height: 126.67px;
+    color: #F94F6D;
+    text-align: center;
+}
+
+.btn {
+    font-family: 'CursedTimerUlil-Aznm', sans-serif; /* Use the font family */
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    padding: 8px;
+    margin: 0 9px 16px 9px;
+    background: none;
+    color: #9AABD8;
+}
+
+.resetBtn {
+    text-align: center;
+    margin: 0 auto 60px auto;
+    width: 100%;
+}
+
+#reset {
+    width: 69%;
+    margin-bottom: 40px;
+}
